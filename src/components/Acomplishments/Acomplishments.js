@@ -6,7 +6,7 @@ import { ExternalLinks } from '../Projects/ProjectsStyles';
 
 const data = [
   { text: ' Pass four AWS Cloud Certificates',link:'https://www.credly.com/users/vanhuypham/badges'},
-  { text: 'Pass the Google Data Analytic Certificate', },
+  { text: 'Pass the Google Data Analytic Certificate',link:'https://www.coursera.org/account/accomplishments/specialization/certificate/VVYB58GZ54FV' },
 ];
 
 const Acomplishments = () => (
