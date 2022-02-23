@@ -1,21 +1,29 @@
 export const projects = [
   {
+    title: 'Crypto Bag - Cryptocurrency Service',
+    description: "A cryptocurrency website that offers real-time data, news, and exchange information. Users can connect to MetaMask wallet to send cryptocurrency to a different address on the Ethereum blockchain. ",
+      image: '/images/crypto_bag.png',
+      tags: ['React', 'Redux Toolkit','API','Ant Design'],
+    visit: 'https://cryptobag.netlify.app/',
+    id: 0,
+  },
+  {
     title: 'Travel Advisor',
     description: "Using React, Material UI, Google map, and autocomplete location API, I built a travel advisor web application. The App allows users to  search for restaurants, attraction, and hotels based on the specified location or the brower's location (by default). The app utilizes Google's autocomplete seach API for the search bar.",
       image: '/images/travel_advisor.png',
       tags: ['React', 'REST API', 'Google Map', 'Material UI'],
     source: 'https://github.com/vanhuycx/travel_advisor_website',
     visit: 'https://van-travel-advisor.netlify.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Krypt - Web 3.0 Blockchain Application',
-    description:"I build my first real Web 3.0 Application - from start to finish - using Web 3.0 methodologies, React, Solidity, and Metamask wallet",
+    description:"I build a Web 3.0 Application - from start to finish - using Web 3.0 methodologies, React, Solidity, and Metamask wallet",
     image: '/images/krypt.png',
     tags: ['React', 'Web 3.0','Solidity','Blockchain Smart Contract','MetaMask'],
     source: 'https://github.com/vanhuycx/krypto_website',
     visit: 'https://van-krypt.netlify.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Tetris game',
@@ -24,7 +32,7 @@ export const projects = [
       image: '/images/tetris.png',
     source: 'https://github.com/vanhuycx/tetris_game',
     visit: 'https://van-tetris.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Boston Housing Prediction',
@@ -33,7 +41,7 @@ export const projects = [
     image: '/images/boston_housing_prediction.png',
     source: 'https://github.com/vanhuycx/boston-houseprice-prediction',
     visit: 'https://boston-houseprice-prediction.herokuapp.com/',
-    id: 3,
+    id: 4,
   },
 ];
 
