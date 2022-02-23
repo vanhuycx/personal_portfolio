@@ -2,12 +2,11 @@ import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import { ExternalLinks } from '../Projects/ProjectsStyles';
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { text: ' Pass four AWS Cloud Certificates',link:'https://www.credly.com/users/vanhuypham/badges'},
+  { text: 'Pass the Google Data Analytic Certificate', },
 ];
 
 const Acomplishments = () => (
@@ -16,8 +15,9 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{`${card.number}+`}</BoxNum>
+          <BoxNum>{`${card.number || ''}`}</BoxNum>
           <BoxText>{card.text}</BoxText>
+          <a style={{color:"yellow",marginTop:'20'}} href={card.link} rel='noreferrer noopener'>Verified Link</a>
         </Box>
       ))}
     </Boxes>
