@@ -17,13 +17,22 @@ export const projects = [
     id: 1,
   },
   {
+    title: 'Amazon Product Scraper',
+    description: "Create a NodeJS Express backend server for scraping Amazon data using Express JS and ScraperAPI service",
+      image: '/images/scraper.png',
+      tags: ['Express', 'Node JS', 'ScraperAPI'],
+    source: 'https://github.com/vanhuycx/van_amazon_scraper',
+    visit: 'https://van-amazon-scraper.herokuapp.com/',
+    id: 2,
+  },
+  {
     title: 'Krypt - Web 3.0 Blockchain Application',
     description:"I build a Web 3.0 Application - from start to finish - using Web 3.0 methodologies, React, Solidity, and Metamask wallet",
     image: '/images/krypt.png',
     tags: ['React', 'Web 3.0','Solidity','Blockchain Smart Contract','MetaMask'],
     source: 'https://github.com/vanhuycx/krypto_website',
     visit: 'https://van-krypt.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Tetris game',
@@ -32,7 +41,7 @@ export const projects = [
       image: '/images/tetris.png',
     source: 'https://github.com/vanhuycx/tetris_game',
     visit: 'https://van-tetris.netlify.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Boston Housing Prediction',
@@ -41,7 +50,7 @@ export const projects = [
     image: '/images/boston_housing_prediction.png',
     source: 'https://github.com/vanhuycx/boston-houseprice-prediction',
     visit: 'https://boston-houseprice-prediction.herokuapp.com/',
-    id: 4,
+    id: 5,
   },
 ];
 
